@@ -43,10 +43,10 @@ SELECT *
 FROM books
 WHERE title LIKE '%the%';
 
--- Both contains and start with "the"
+-- Both contains and starts with "the"
 -- SELECT *
 -- FROM books
--- WHERE title LIKE '%the%' OR title LIKE '%The%';
+-- WHERE title LIKE '%the%' OR title LIKE 'The%';
 
 -- Add yourself as an author
 INSERT INTO authors

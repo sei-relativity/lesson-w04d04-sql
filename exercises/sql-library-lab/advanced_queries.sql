@@ -48,10 +48,10 @@ SELECT *
 FROM Books
 WHERE title LIKE '%the%';
 
--- Both contains and start with "the"
+-- Both contains and starts with "the"
 -- SELECT *
 -- FROM books
--- WHERE title LIKE '%the%' OR title LIKE '%The%';
+-- WHERE title LIKE '%the%' OR title LIKE 'The%';
 
 -- Find all authors who have written books with that start with the letter 'N'.
 SELECT Authors.*
